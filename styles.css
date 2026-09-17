@@ -1,0 +1,194 @@
+body {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: Arial, sans-serif;
+  background: rgba(121, 206, 156, 0.322);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.flyer {
+  position: relative;
+  width: 730px;
+  min-height: 820px;
+  padding: 58px 68px;
+  overflow: auto;
+
+  background: linear-gradient(
+    135deg,
+    #efb8e9,
+    #d8b8ee 50%,
+    #abc9f5
+  );
+
+  color: #38217f;
+}
+
+.CA {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #7f2140;
+  position: absolute;
+  top: 350px;
+  right: 300px;
+  left: 400px;
+  z-index: 1;
+}
+
+.CA:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+/* Main heading */
+h1 {
+  margin: 0;
+  font-size: 54px;
+  line-height: 1.08;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 52px;
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+/* Event details */
+.date {
+  margin-top: 32px;
+  color: #8e246e;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.time {
+  color: #8e246e;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.location {
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #17132f;
+}
+
+/* Bottom information */
+.donations {
+  position: absolute;
+  top: 565px;
+  left: 300px;
+  right: 50px;
+}
+
+.section-title {
+  margin: 0 0 12px;
+  color: #8e246e;
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+ul {
+  margin: 0 0 46px;
+  padding-left: 35px;
+  color: #19132f;
+  font-size: 16px;
+  line-height: 1.45;
+  letter-spacing: 0.4px;
+}
+
+.proceeds {
+  color: #482582;
+}
+
+.website {
+  margin-top: 2px;
+  color: #120d27;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Dotted circles */
+.circle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid;
+
+  background-image: radial-gradient(
+    currentColor 1.5px,
+    transparent 1.5px
+  );
+
+  background-size: 8px 8px;
+}
+
+.purple {
+  color: #9661e8;
+}
+
+.pink {
+  color: #92156e;
+}
+
+.white {
+  color: white;
+}
+
+.dark {
+  color: #452080;
+}
+
+/* Top circles */
+.c1 {
+  top: 40px;
+  right: 53px;
+}
+
+.c2 {
+  top: 147px;
+  right: 99px;
+}
+
+.c3 {
+  top: 255px;
+  right: 54px;
+}
+
+.c4 {
+  top: 362px;
+  right: 99px;
+}
+
+/* Bottom circles */
+.c5 {
+  top: 502px;
+  left: 57px;
+}
+
+.c6 {
+  top: 611px;
+  left: 100px;
+}
+
+.c7 {
+  top: 718px;
+  left: 57px;
+}
+
+.c8 {
+  top: 825px;
+  left: 100px;
+}
+
